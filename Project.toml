@@ -1,0 +1,13 @@
+name = "ManifoldDistributions"
+uuid = "8fe48565-f24b-4e2e-8b3e-841a9eec6bf2"
+authors = ["Seth Axen <seth@sethaxen.com> and contributors"]
+version = "0.1.0-DEV"
+
+[compat]
+julia = "1.10"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
