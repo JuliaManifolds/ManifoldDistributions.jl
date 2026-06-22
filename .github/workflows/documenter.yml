@@ -12,7 +12,7 @@ jobs:
     # Start with the default that it always runs
     # if: contains( github.event.pull_request.labels.*.name, 'preview docs') || github.ref == 'refs/heads/master' || contains(github.ref, 'refs/tags/')
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
       # as soon as we have tutorials with Quasrto the next lines are useful
       #- uses: quarto-dev/quarto-actions/setup@v2
       #  with:
